@@ -1,58 +1,60 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Abhishek Tiwari",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
+    "picture": "https://abhishekcs10.github.io/images/abhishek.png",
+    "email": "abhishektiwari@iitkgp.ac.in",
     "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "website": "https://abhishekcs10.github.io",
+    "summary": "I am studying for M.Tech in Computer Science in the Department of Computer Science and Engineering at Indian Institute of Technology, Kharagpur. I expect to graduate in Spring, 2018.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "address": "422/75 B Tope Darwaza, Chaupatiyan Road, Lucknow",
+      "postalCode": "226003",
+      "city": "Lucknow",
+      "countryCode": "+91",
+      "region": "India"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "abhishekcs10",
+        "url": "http://github.com/abhishekcs10"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "abhishektiwari10",
+        "url": "http://linkedin.com/in/abhishektiwari10"
       },
       {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "network": "facebook",
+        "username": "Abhishek Tiwari",
+        "url": "http://facebook.com/abhishekcs10"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "abhishektiwari.1984",
+        "url": "http://instagram.com/abhishektiwari.1984"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Algorithms",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "Graph Theory",
+        "Approximation Algorithms"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Data Mining",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Machine Learning",
       "keywords": [
+		"Classifers" ,
+		"Regression"
       ]
     }
   ],
@@ -63,32 +65,33 @@
       "keywords": [
         "C",
         "C++",
+		"Python",
+		"R",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Javascript"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+		"Sphinx Documentation",
+		"Atom",
+		"Latex",
+        "g++"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
+      "institution": "IIT Kharagpur, West Bengal",
       "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "studyType": "M.Tech",
+      "startDate": "2016-07-16",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "8.7",
       "courses": [
       ]
     }
