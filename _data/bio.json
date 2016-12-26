@@ -2,17 +2,16 @@
   "basics": {
     "name": "Abhishek Tiwari",
     "label": "Student",
-    "picture": "https://abhishekcs10.github.io/images/abhishek.png",
+    "picture": "https://abhishekcs10.github.io/images/abhishek.jpg",
     "email": "abhishektiwari@iitkgp.ac.in",
-    "phone": "808-333-4444",
+    "phone": "+917479024291",
     "website": "https://abhishekcs10.github.io",
     "summary": "I am studying for M.Tech in Computer Science in the Department of Computer Science and Engineering at Indian Institute of Technology, Kharagpur. I expect to graduate in Spring, 2018.",
     "location": {
-      "address": "422/75 B Tope Darwaza, Chaupatiyan Road, Lucknow",
+      "address": "422/75 B Tope Darwaza, Chaupatiyan Road",
       "postalCode": "226003",
       "city": "Lucknow",
-      "countryCode": "+91",
-      "region": "India"
+      "region": "India."
     },
     "profiles": [
       {
@@ -41,8 +40,6 @@
     {
       "name": "Algorithms",
       "keywords": [
-        "Graph Theory",
-        "Approximation Algorithms"
       ]
     },
     {
@@ -53,8 +50,6 @@
     {
       "name": "Machine Learning",
       "keywords": [
-		"Classifers" ,
-		"Regression"
       ]
     }
   ],
@@ -80,7 +75,8 @@
 		"Sphinx Documentation",
 		"Atom",
 		"Latex",
-        "g++"
+        "g++",
+		"gdb"
       ]
     }
   ],
