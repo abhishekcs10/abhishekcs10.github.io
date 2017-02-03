@@ -9,7 +9,7 @@ labels:
   - Java
   - Android
   - Latin IME
-summary: My team of 2 developed a android keyboard that can allow gesture typing (as in Google Soft Keyboard). Various features while swiping on the keyboard were captured and stored in a file in order to infer the mood o user based on the type of text application used and the swipe pattern used to type text.
+summary: My team of 2 developed a android keyboard that can allow gesture typing (as in Google Soft Keyboard).
 ---
 
 <div class="ui small rounded images">
