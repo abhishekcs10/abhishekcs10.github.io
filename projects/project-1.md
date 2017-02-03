@@ -3,13 +3,13 @@ layout: project
 type: project
 image: images/affectsense/android_proj.png
 title: AffectSense
-permalink: projects/micromouse
-date: 2015
+permalink: projects/affectsense
+date: 2016
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Java
+  - Android
+  - Latin IME
+summary: My team of 2 developed a android keyboard that can allow gesture typing (as in Google Soft Keyboard). Various features while swiping on the keyboard were captured and stored in a file in order to infer the mood o user based on the type of text application used and the swipe pattern used to type text.
 ---
 
 <div class="ui small rounded images">
@@ -22,11 +22,11 @@ summary: My team developed a robotic mouse that won first place in the 2015 UH M
 	</video>
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+The AffectSense keyboard is developed in order to be able to store various swipe features while user uses the keyboard for typing. These features includes swipe velocity, pressure, distance upto or length of swipe. Along with it the application on which user is typing is stored and for every new application used an average of the feature is calculated for 30 min time window.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+Initially our project focused on study of the effect of users mood to swipe on mobile screen. Then because of Google's new patent law for gesture typing, the access to swipe api was restricted. Thus we needed to develop a keyboard on the first place that can allow gesture typing and store swipe feature. We started with study of latinIME and various android source code available Google AOSP. We then worked out on an algorithm that genrates a regular expression according to the pause user takes while making a direction change. This regular expression currently contains only three most repeated letter (where the pause was long as compared to other letters) and longest matching string from the dictionary was retrieved.
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+You can learn more at the [AffectSense Github Source](https://www.github.com/abhishekcs10/AffectSense).
 
 
 
