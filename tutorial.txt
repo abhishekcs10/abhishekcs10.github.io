@@ -1,0 +1,46 @@
+http://techfolios.github.io/quickstart.html
+
+To change profile picture
+------------------------------
+
+Copy picture in images directory 400x400 preferable
+
+
+To edit personal information (bio data)
+---------------------------------------
+
+edit directory-> ~/_data/bio.json
+
+Set home page theme
+-----------------------
+
+Themes can be found in _include folder named as theme-*
+
+Set theme you want to use in _config.yml
+
+edit theme-* attribute s you wish
+
+theme-home: theme-home-builtin-1.html
+theme-projects: theme-projects-builtin-1.html
+theme-essays: theme-essays-builtin-1.html
+theme-bio: theme-bio-builtin-1.html
+
+
+Set up project Content
+--------------------------
+
+Edit projects in project directory
+
+Have image for every of your project
+
+Edit project files to have changes
+
+to make your project offline add attribute
+
+published : false
+
+Set essay content
+---------------------
+
+edit essay folder
+
