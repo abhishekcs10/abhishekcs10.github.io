@@ -934,7 +934,20 @@ _________________________________________________________ -->
     <script src="js/waypoints.min.js"></script>
 
     <!-- maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJJg8N73tPH6vGxxPGhCJ0CcfBPjH4cN8&v=3.exp&amp;sensor=true"></script>
+	<script>
+     function initMap() {
+		         var uluru = {lat: 26.84669, lng: 80.94617 };
+				         var map = new google.maps.Map(document.getElementById('map'), {
+							           zoom: 4,
+									             center: uluru
+													         });
+						         var marker = new google.maps.Marker({
+									           position: uluru,
+											             map: map
+															         });
+					 }
+</script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJJg8N73tPH6vGxxPGhCJ0CcfBPjH4cN8&callback= initMap"></script>
     <script src="js/gmaps.js"></script>
 
     <!-- masonry layout -->
